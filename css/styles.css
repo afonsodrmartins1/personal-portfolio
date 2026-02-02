@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+#navbar{
+    display:flex;
+    background-color: crimson;
+    position: fixed;
+    top:10px;
+    right:10px;
+    align-self: flex-end;
+    
+    height:7vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+    gap: 1rem;
+    
+    
+    
+
+}
+
+#navbar a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#navbar a:hover{
+    font-size: 160%;
+    color:white;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+#home{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+#projects{
+     
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height:100vh;
+    width:100%;
+    background-color: navajowhite;
+
+}
+
+#about-me{
+    height:100vh;
+
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 3%;
+}
+
+#in-progress{
+    margin-top:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
